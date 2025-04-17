@@ -3,6 +3,11 @@ body {
     background-color: whitesmoke;
 }
 
+ul {
+    list-style: none;
+}
+
+
 a {
     text-decoration: none;
     color: rgb(59, 162, 169);
@@ -14,6 +19,8 @@ a {
 }
 
 .title {
+    position: sticky;
+    top: 0;
     background-color: rgb(59, 162, 169);
 }
 
@@ -40,6 +47,13 @@ a {
     margin-bottom: 30px;
 }
 
+.ingredients {
+    padding: 8px;
+    display: inline-block;
+    background-color: solid rgb(59, 162, 169);
+    border: solid red 3px;
+}
+
 .home-button {
     text-align: center;
     padding: 8px 20px;
@@ -48,7 +62,7 @@ a {
 
 a:hover {
     display: inline-block;
-    font-size: 30px;
+    font-size: 40px;
     background-color: whitesmoke;
     color: rgb(59, 162, 169);
 }
@@ -62,6 +76,11 @@ a:hover {
     text-decoration: none;
 }
 
+.img-home {
+    border: 3px solid rgb(59, 162, 169);
+    width: 300px;
+    height: auto;
+}
 
 h1 {
     color: rgb(144, 201, 205);
@@ -73,6 +92,12 @@ h1 {
     box-sizing: border-box;
     margin-right: auto;
 }
+
+li {
+    font-size: 18px;
+    font-weight: 700;
+}
+
 
 .recipe1 {
 
